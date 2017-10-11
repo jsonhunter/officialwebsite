@@ -88,7 +88,7 @@ ul, li {
     text-align: center;
     border-top: 1px solid #666; }
 
-/*****/
+/***index**/
 .main-con .card:nth-child(2n) {
   background: #efefef; }
 .main-con .card:nth-child(2n+1) {
@@ -197,7 +197,7 @@ ul, li {
   .media-center li:first-child {
     padding-left: 0; }
 
-/*****/
+/***introduce**/
 .text-content {
   background: #fff;
   position: relative;
@@ -230,5 +230,44 @@ ul, li {
         text-decoration: none; }
     .text-content .nav-list li:last-child {
       border-bottom: none; }
+
+/****news*****/
+.news-center {
+  text-align: center; }
+  .news-center .news-list {
+    text-align: left;
+    padding: 0; }
+    .news-center .news-list li {
+      border-bottom: 1px solid #dddddd;
+      display: flex;
+      padding: 20px 0; }
+      .news-center .news-list li a {
+        display: inline-block; }
+      .news-center .news-list li div.news-digest {
+        padding: 5px 0 5px 20px; }
+        .news-center .news-list li div.news-digest .news-title {
+          font-size: 16px;
+          color: #444;
+          font-weight: bold;
+          display: block; }
+        .news-center .news-list li div.news-digest .news-content {
+          font-size: 15px;
+          color: #777;
+          display: block; }
+        .news-center .news-list li div.news-digest a {
+          text-decoration: none; }
+        .news-center .news-list li div.news-digest a:hover {
+          color: #168fdc; }
+        .news-center .news-list li div.news-digest span {
+          font-size: 14px;
+          color: #777;
+          display: block; }
+    .news-center .news-list li:last-child {
+      border-bottom: none; }
+  .news-center .pagination {
+    margin: 20px auto;
+    display: inline-block;
+    clear: both;
+    overflow: hidden; }
 
 /*# sourceMappingURL=common.css.map */
