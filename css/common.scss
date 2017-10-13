@@ -1,10 +1,14 @@
 a{
   color: #262626;
 }
+body{
+  background: #efefef;
+}
 ul,li{
   list-style: none;
 }
 .header{
+  background: #FFFFFF;
   .contain {
     width: 100%;
     border-bottom: 1px solid #efefef;
@@ -116,6 +120,7 @@ ul,li{
     text-align: center;border-top: 1px solid #666;
   }
 }
+
 
 
 
@@ -266,6 +271,7 @@ ul,li{
   }
 }
 
+
 /***introduce**/
 .text-content{
   background: #fff;
@@ -308,6 +314,7 @@ ul,li{
     }
   }
 }
+
 
 /****news*****/
 .news-center{

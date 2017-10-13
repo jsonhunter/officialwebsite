@@ -1,63 +1,68 @@
 a {
   color: #262626; }
 
+body {
+  background: #efefef; }
+
 ul, li {
   list-style: none; }
 
-.header .contain {
-  width: 100%;
-  border-bottom: 1px solid #efefef; }
-  .header .contain .con-header {
-    max-width: 1170px;
-    margin: 0 auto; }
-    .header .contain .con-header .logo {
-      display: inline-block;
-      width: 15rem;
-      height: 5rem;
-      background: url("../images/logo.jpg") no-repeat;
-      background-size: cover; }
-    .header .contain .con-header .nav-right {
-      float: right; }
-      .header .contain .con-header .nav-right li {
-        padding: 0.5rem;
-        line-height: 5rem;
-        float: left; }
-      .header .contain .con-header .nav-right form {
-        padding: 0.5rem; }
-.header .nav-tag {
-  width: 100%;
-  position: relative; }
-  .header .nav-tag ul.nav-bar {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex; }
-    .header .nav-tag ul.nav-bar li.nav-tabs {
-      border-bottom: none;
-      width: 20%;
-      text-align: center;
-      position: inherit; }
-      .header .nav-tag ul.nav-bar li.nav-tabs .first-tab.active {
-        background: #2aabd2; }
-      .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab {
-        background: #efefef;
-        clear: both;
-        overflow: hidden;
-        position: absolute;
-        z-index: 9999;
-        left: 0;
-        right: 0;
-        display: none; }
-        .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab ul {
-          max-width: 1170px;
-          margin: 0 auto;
-          padding: 0;
-          display: flex; }
-          .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab ul li {
-            padding: 2rem;
-            margin: 0; }
-      .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab.active {
-        display: block;
-        border-bottom: 1px solid #168fdc; }
+.header {
+  background: #FFFFFF; }
+  .header .contain {
+    width: 100%;
+    border-bottom: 1px solid #efefef; }
+    .header .contain .con-header {
+      max-width: 1170px;
+      margin: 0 auto; }
+      .header .contain .con-header .logo {
+        display: inline-block;
+        width: 15rem;
+        height: 5rem;
+        background: url("../images/logo.jpg") no-repeat;
+        background-size: cover; }
+      .header .contain .con-header .nav-right {
+        float: right; }
+        .header .contain .con-header .nav-right li {
+          padding: 0.5rem;
+          line-height: 5rem;
+          float: left; }
+        .header .contain .con-header .nav-right form {
+          padding: 0.5rem; }
+  .header .nav-tag {
+    width: 100%;
+    position: relative; }
+    .header .nav-tag ul.nav-bar {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex; }
+      .header .nav-tag ul.nav-bar li.nav-tabs {
+        border-bottom: none;
+        width: 20%;
+        text-align: center;
+        position: inherit; }
+        .header .nav-tag ul.nav-bar li.nav-tabs .first-tab.active {
+          background: #2aabd2; }
+        .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab {
+          background: #efefef;
+          clear: both;
+          overflow: hidden;
+          position: absolute;
+          z-index: 9999;
+          left: 0;
+          right: 0;
+          display: none; }
+          .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab ul {
+            max-width: 1170px;
+            margin: 0 auto;
+            padding: 0;
+            display: flex; }
+            .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab ul li {
+              padding: 2rem;
+              margin: 0; }
+        .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab.active {
+          display: block;
+          border-bottom: 1px solid #168fdc; }
 
 .footer {
   background: #454545;
