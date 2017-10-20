@@ -331,4 +331,31 @@ ul, li {
     clear: both;
     overflow: hidden; }
 
+/*****history********/
+.lishi ul {
+  padding-left: 0;
+  background: url(../images/xj17.png) repeat-y 96px top; }
+  .lishi ul li {
+    display: flex; }
+    .lishi ul li span {
+      font-family: "Source Sans Pro LightIt";
+      font-size: 32px;
+      color: #498537;
+      display: block;
+      height: 36px;
+      line-height: 36px;
+      float: left; }
+    .lishi ul li .lishi_neirong {
+      float: left;
+      margin-left: 15px;
+      width: 700px; }
+      .lishi ul li .lishi_neirong p {
+        font-family: "微软雅黑";
+        font-size: 15px;
+        color: #444;
+        line-height: 36px;
+        display: block;
+        padding-left: 28px;
+        background: url(../images/xj16.png) left 10px no-repeat; }
+
 /*# sourceMappingURL=common.css.map */
