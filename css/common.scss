@@ -17,7 +17,7 @@ ul,li{
     width: 100%;
     border-bottom: 1px solid #efefef;
     .con-header{
-      max-width: 1170px;
+      max-width: 1160px;
       margin: 0 auto;
       .logo{
         display: inline-block;
@@ -42,7 +42,7 @@ ul,li{
   .nav-tag{
     width: 100%;position: relative;
     ul.nav-bar{
-      max-width: 1170px;
+      max-width: 1160px;
       margin: 0 auto;
       display: flex;
       li.nav-tabs{
@@ -63,7 +63,7 @@ ul,li{
           right: 0;
           display: none;
           ul{
-            max-width: 1170px;
+            max-width: 1160px;
             margin: 0 auto;
             padding: 0;
             display: flex;
@@ -470,4 +470,44 @@ ul,li{
       }
     }
   }
+}
+
+/*****culture*****/
+.culture{
+  margin: 30px 0 10px 0;
+  .row-culture{
+    .cpx{
+      margin: 30px 0 10px 0;
+      background: url("../images/a31.png")no-repeat left;
+      color: #498537;
+      display: inline-block;
+      text-indent: 20px;
+      font-size: 22px;
+    }
+    ul{
+      padding-left: 0;
+      li{
+        line-height: 30px;
+        color: #444444;
+        font-size: 16px;
+        em{
+          color: #498537;
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
+}
+
+/******contact****/
+.contact{
+  li{
+    .row-contact{
+      span{
+        display: block;
+      }
+    }
+  }
+
 }

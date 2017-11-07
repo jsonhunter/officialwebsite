@@ -17,7 +17,7 @@ ul, li {
     width: 100%;
     border-bottom: 1px solid #efefef; }
     .header .contain .con-header {
-      max-width: 1170px;
+      max-width: 1160px;
       margin: 0 auto; }
       .header .contain .con-header .logo {
         display: inline-block;
@@ -37,7 +37,7 @@ ul, li {
     width: 100%;
     position: relative; }
     .header .nav-tag ul.nav-bar {
-      max-width: 1170px;
+      max-width: 1160px;
       margin: 0 auto;
       display: flex; }
       .header .nav-tag ul.nav-bar li.nav-tabs {
@@ -57,7 +57,7 @@ ul, li {
           right: 0;
           display: none; }
           .header .nav-tag ul.nav-bar li.nav-tabs .sec-tab ul {
-            max-width: 1170px;
+            max-width: 1160px;
             margin: 0 auto;
             padding: 0;
             display: flex; }
@@ -357,5 +357,29 @@ ul, li {
         display: block;
         padding-left: 28px;
         background: url(../images/xj16.png) left 10px no-repeat; }
+
+/*****culture*****/
+.culture {
+  margin: 30px 0 10px 0; }
+  .culture .row-culture .cpx {
+    margin: 30px 0 10px 0;
+    background: url("../images/a31.png") no-repeat left;
+    color: #498537;
+    display: inline-block;
+    text-indent: 20px;
+    font-size: 22px; }
+  .culture .row-culture ul {
+    padding-left: 0; }
+    .culture .row-culture ul li {
+      line-height: 30px;
+      color: #444444;
+      font-size: 16px; }
+      .culture .row-culture ul li em {
+        color: #498537;
+        font-weight: bold; }
+
+/******contact****/
+.contact li .row-contact span {
+  display: block; }
 
 /*# sourceMappingURL=common.css.map */
