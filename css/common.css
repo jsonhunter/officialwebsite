@@ -252,7 +252,7 @@ ul, li {
       .text-content .text-introduce .tab-cur .tab-con {
         background: #dddddd;
         margin-left: 15px;
-        margin-right: 15px;
+        margin-right: 24px;
         margin-top: 10px;
         padding-left: 0; }
         .text-content .text-introduce .tab-cur .tab-con .item-box {
@@ -277,6 +277,8 @@ ul, li {
               padding: 10px 40px; }
         .text-content .text-introduce .tab-cur .tab-con .item-box.active {
           display: block; }
+    .text-content .text-introduce p {
+      clear: both; }
   .text-content .nav-list {
     padding-top: 30px; }
     .text-content .nav-list li {
@@ -303,7 +305,8 @@ ul, li {
       display: flex;
       padding: 20px 0; }
       .news-center .news-list li a {
-        display: inline-block; }
+        display: block;
+        width: 400px; }
       .news-center .news-list li div.news-digest {
         padding: 5px 0 5px 20px; }
         .news-center .news-list li div.news-digest .news-title {
@@ -330,6 +333,33 @@ ul, li {
     display: inline-block;
     clear: both;
     overflow: hidden; }
+
+.area ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0; }
+  .area ul li {
+    border: 1px solid #ffffff;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+    width: 200px;
+    height: 160px;
+    position: relative; }
+    .area ul li a {
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      text-align: center;
+      padding: 20px; }
+      .area ul li a img {
+        width: 100px;
+        height: 100px; }
+  .area ul li:hover {
+    border: 1px solid #3c763d; }
 
 /*****history********/
 .lishi ul {
@@ -381,5 +411,64 @@ ul, li {
 /******contact****/
 .contact li .row-contact span {
   display: block; }
+
+/***************/
+.square {
+  margin: 0px 0 10px 0;
+  background: url(../images/a31.png) no-repeat left;
+  color: #498537;
+  display: inline-block;
+  text-indent: 20px;
+  font-size: 22px; }
+
+.product-list li {
+  border-bottom: 1px solid #cccccc;
+  clear: both;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 10px; }
+  .product-list li .product-name {
+    font-weight: bold;
+    font-size: 16px; }
+  .product-list li .product-intro {
+    margin-top: 8px; }
+  .product-list li .img-link {
+    border: 1px solid #cccccc;
+    display: block;
+    clear: both;
+    overflow: hidden; }
+
+.allinfo {
+  border-top: 1px solid #cccccc;
+  padding-top: 10px; }
+
+.simpleinfo {
+  margin-top: 15px; }
+  .simpleinfo tr td:first-child {
+    font-weight: bold;
+    width: 75px; }
+
+.hr table td {
+  padding: 5px; }
+
+.requireinfo {
+  display: flex;
+  flex-wrap: wrap;
+  background: #cccccc; }
+  .requireinfo li {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px; }
+    .requireinfo li span {
+      font-weight: normal; }
+
+.jobinfo {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .jobinfo .title {
+    font-size: 24px;
+    padding: 20px 0; }
+  .jobinfo p {
+    font-size: 14px; }
 
 /*# sourceMappingURL=common.css.map */
