@@ -284,7 +284,18 @@ ul, li {
     .text-content .nav-list li {
       cursor: pointer;
       padding: 15px;
-      border-bottom: 1px solid #dddddd; }
+      border-bottom: 1px solid #dddddd;
+      position: relative;
+      height: 40px;
+      line-height: 40px;
+      text-indent: 5px; }
+      .text-content .nav-list li a {
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute; }
     .text-content .nav-list li.active, .text-content .nav-list li:hover {
       border-bottom: none;
       background: #168fdc; }
@@ -377,7 +388,7 @@ ul, li {
       float: left; }
     .lishi ul li .lishi_neirong {
       float: left;
-      margin-left: 15px;
+      margin-left: 26px;
       width: 700px; }
       .lishi ul li .lishi_neirong p {
         font-family: "微软雅黑";
